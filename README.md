@@ -65,31 +65,31 @@ SQL과 Python을 활용한 **행동 로그 분석, A/B Test, KPI 설계, 데이�
 
 ---
 
-### 03. 체류시간 로그 품질 기준 수립
+### [03. Session Time 이상치 제거 기준 수립 및 시스템 적용](https://github.com/wonbin-DA/data-analysis-portfolio/tree/main/03_sessiontime_quality)
 
-`Python` `EDA` `Data Quality`
+`Python` `EDA` `Data Quality` `Outlier Analysis`
 
-체류시간 로그 분포를 분석해 평균과 최대값을 왜곡하는 이상 로그를 확인하고 제외 기준을 수립했습니다.
+2Depth 상세 콘텐츠의 Session Time 분포를 분석해 이상 로그를 탐색하고, 반복 적용 가능한 데이터 품질 기준을 수립했습니다.
 
-- 체류시간 분포 및 이상치 EDA
-- **300초 초과 로그 약 0.56%** 확인
-- 스크롤 조건, 1초 미만 로그 제외 등 대안 기준 비교
-- 최종 **300초 초과 로그 제외 기준** 적용
-- 고객사 통계 시스템 산출 기준에 반영
+- Session Time 분포 및 Scroll Depth별 사용자 행동 분석
+- **300초 초과 로그 제외 기준 수립**
+- Scroll Depth 조건, 1초 미만 로그 제외 등 대안 기준 비교
+- 추가 EDA를 통해 기존 **300초 초과 제외 기준 유지**
+- 고객사 및 협력사용 내부 통계 시스템의 Session Time 산출 기준에 반영
 
 ---
 
-### 04. 저성과 콘텐츠 Cutoff 기준 분석
+### [04. Full Engagement 기반 저성과 Cutoff 기준 수립](https://github.com/wonbin-DA/data-analysis-portfolio/tree/main/04_low_performance_cutoff)
 
-`SQL` `Python` `Distribution Analysis`
+`SQL` `Python` `EDA` `Percentile Analysis`
 
-반복 전시 콘텐츠의 성과 판단 기준을 마련하기 위해 Full Engagement 분포를 분석하고 저성과 구간을 검토했습니다.
+반복 전시 콘텐츠의 성과 판단 기준을 마련하기 위해 Full Engagement 분포를 분석하고 저성과 콘텐츠의 Cutoff 기준을 검토했습니다.
 
-- 주차별 콘텐츠 성과 데이터 집계
+- 주차별 콘텐츠 Full Engagement 데이터 집계
 - Histogram, KDE, CDF 기반 성과 분포 분석
 - Percentile 비교를 통한 저성과 구간 탐색
-- **P25 Full Engagement = 1,965**
-- P25 기반 Cutoff 및 반복 저성과 콘텐츠 **3-Out 기준 검토**
+- 하위 25% 기준 **Full Engagement = 1,965** 확인
+- P25 기반 Cutoff 및 반복 저성과 콘텐츠 **3-Out 운영 기준 제안**
 
 ---
 
