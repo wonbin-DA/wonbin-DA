@@ -37,7 +37,7 @@ SQL과 Python을 활용한 **행동 로그 분석, A/B Test, KPI 설계, 데이�
 
 ## Key Data Projects
 
-### 01. 운영 기준 전환 A/B Test
+### [01. 운영 기준 전환 A/B Test](https://github.com/wonbin-DA/data-analysis-portfolio/tree/main/01_ab_test)
 
 `SQL` `Python` `A/B Testing` `Statistics`
 
@@ -46,7 +46,7 @@ SQL과 Python을 활용한 **행동 로그 분석, A/B Test, KPI 설계, 데이�
 - 핵심 지표: **Click → Download CVR**
 - 한국 CVR: **7.41% → 11.43% (+54%)**
 - 브라질 CVR: **15.56% → 26.97% (+73%)**
-- Proportion Z-Test 및 Fisher Exact Test를 활용한 통계 검정
+- Proportion Z-Test 기반 통계 검정, Fisher Exact Test 보조 검증
 - 분석 결과를 기반으로 신규 운영 기준 전환
 
 ---
@@ -123,7 +123,7 @@ SQL과 Python을 활용한 **행동 로그 분석, A/B Test, KPI 설계, 데이�
 
 💻 **[data-analysis-portfolio](https://github.com/wonbin-DA/data-analysis-portfolio)**
 
-SQL과 Python을 활용한 프로젝트별 분석 코드와 익명화 Sample Data를 정리합니다.
+SQL과 Python을 활용한 프로젝트별 분석 코드와 공개용 Sample Data를 정리합니다.
 
 ### Portfolio PDF
 
