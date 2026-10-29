@@ -55,13 +55,13 @@ SQL과 Python을 활용한 **행동 로그 분석, A/B Test, KPI 설계, 데이�
 
 `SQL` `KPI Design` `Event Log`
 
-신규 서비스의 사용자 참여 수준을 측정하기 위해 1Depth와 2Depth 행동 로그를 하나의 성과 체계로 정의했습니다.
+단순 AU로는 설명하기 어려운 사용자 참여 수준을 측정하기 위해 1Depth와 2Depth 행동 로그를 기반으로 Engagement KPI를 설계했습니다.
 
 - **Full Engagement / 1Depth Engagement / 2Depth Engagement** 정의
+- Full Engagement를 대표 KPI로 설정
 - 사용자 × 날짜 × 콘텐츠 단위 행동 로그 집계
 - 주간 Unique User 기반 KPI 산출 로직 설계
-- 집계 SQL 및 정기 리포트 구축
-- 유관 부서 KPI로 채택
+- 고객사 협의 후 정기 성과 리포트 지표로 반영 및 고객사 유관부서 내부 KPI 채택
 
 ---
 
