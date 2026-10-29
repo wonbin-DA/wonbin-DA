@@ -52,6 +52,7 @@ SQL과 Python을 활용한 **행동 로그 분석, A/B Test, KPI 설계, 데이�
 ---
 
 ### 02. 사용자 참여 KPI 설계
+### [02. 사용자 참여 KPI 설계](https://github.com/wonbin-DA/data-analysis-portfolio/tree/main/02_engagement_kpi)
 
 `SQL` `KPI Design` `Event Log`
 
