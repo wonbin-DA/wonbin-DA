@@ -1,99 +1,48 @@
-# 데이터로 문제를 발견하고, 개선을 만드는 데이터 분석가 이원빈입니다.
+# 👋 데이터로 문제를 정의하고, 개선을 만드는 이원빈입니다.
 
-> **사용자 행동 데이터를 기반으로 문제를 정의하고, 지표 설계와 실험을 통해 운영 판단의 근거를 제시합니다.**
+> 사용자 행동 데이터를 기반으로 문제를 정의하고, 지표 설계와 실험을 통해 의사결정의 근거를 만듭니다.
 
 글로벌 앱마켓의 사용자 행동과 콘텐츠 성과를 분석해 온 데이터 분석가입니다.
 
-SQL과 Python을 활용한 **행동 로그 분석, A/B Test, KPI 설계, 데이터 품질 기준 수립** 업무를 수행했습니다.  
+SQL과 Python을 활용해 **사용자 행동 분석, A/B Test, KPI 설계, 데이터 품질 기준 수립** 업무를 수행했습니다.  
 단순한 지표 산출에 그치지 않고, 서비스 목표에 맞는 측정 기준을 정의하고 분석 결과가 실제 운영 의사결정으로 이어지도록 연결해 왔습니다.
 
 ---
 
-## About Me
+## 💼 Experience
 
-### Experience
-
-**글로벌 앱마켓 운영 데이터 분석 직무 수행**  
+### 글로벌 앱마켓 운영 데이터 분석
 `2024.08 ~ 2026.10`
 
 - SQL, Python 기반 사용자 행동 및 콘텐츠 성과 분석
 - A/B Test 설계 및 통계적 검증
 - 신규 서비스 사용자 참여 KPI 및 집계 기준 설계
-- 체류시간 로그 이상치 분석 및 데이터 품질 기준 수립
+- Session Time 이상 로그 분석 및 데이터 품질 기준 수립
+- 콘텐츠 성과 분포 분석 및 운영 기준 검토
 - 주간 성과 분석 및 정기 리포트 운영
 
-### Education
+---
 
-**경기대학교**  
-응용통계학 학사 · 융합데이터공학 부전공  
-`2017.03 ~ 2024.02`
+## 🎯 Core Competencies
 
-### Training & Certification
+### User Behavior Analysis
+사용자 행동 로그를 기반으로 노출, 클릭, 다운로드, 상세 진입 등 주요 행동 흐름을 분석합니다.
 
-- KT AIVLE School 5기 DX 컨설턴트 과정 수료
-- 데이터분석 준전문가(ADsP)
+### A/B Testing
+실험 가설과 핵심 지표를 정의하고 통계적 검정을 통해 운영 기준의 성과 차이를 검증합니다.
+
+### KPI Design
+서비스의 목적과 사용자 행동을 연결해 측정 가능한 KPI와 집계 기준을 설계합니다.
+
+### Data Quality
+이상 로그와 집계 기준을 검토해 반복적으로 적용 가능한 데이터 품질 기준을 수립합니다.
+
+### Business Decision Support
+분석 결과를 단순 리포팅에 그치지 않고 실제 운영 정책과 의사결정 기준으로 연결합니다.
 
 ---
 
-## Key Data Projects
-
-### [01. 운영 기준 전환 A/B Test](https://github.com/wonbin-DA/data-analysis-portfolio/tree/main/01_ab_test)
-
-`SQL` `Python` `A/B Testing` `Statistics`
-
-기존 운영 기준과 신규 기준의 성과를 비교하기 위해 한국과 브라질을 대상으로 A/B Test를 설계하고 통계적으로 검증했습니다.
-
-- 핵심 지표: **Click → Download CVR**
-- 한국 CVR: **7.41% → 11.43% (+54%)**
-- 브라질 CVR: **15.56% → 26.97% (+73%)**
-- Proportion Z-Test 기반 통계 검정, Fisher Exact Test 보조 검증
-- 분석 결과를 기반으로 신규 운영 기준 전환
-
----
-
-### [02. 사용자 참여 KPI 설계](https://github.com/wonbin-DA/data-analysis-portfolio/tree/main/02_engagement_kpi)
-
-`SQL` `KPI Design` `Event Log`
-
-단순 AU로는 설명하기 어려운 사용자 참여 수준을 측정하기 위해 1Depth와 2Depth 행동 로그를 기반으로 Engagement KPI를 설계했습니다.
-
-- **Full Engagement / 1Depth Engagement / 2Depth Engagement** 정의
-- Full Engagement를 대표 KPI로 설정
-- 사용자 × 날짜 × 콘텐츠 단위 행동 로그 집계
-- 주간 Unique User 기반 KPI 산출 로직 설계
-- 고객사 협의 후 정기 성과 리포트 지표로 반영 및 고객사 유관부서 내부 KPI 채택
-
----
-
-### [03. Session Time 이상치 제거 기준 수립 및 시스템 적용](https://github.com/wonbin-DA/data-analysis-portfolio/tree/main/03_sessiontime_quality)
-
-`Python` `EDA` `Data Quality` `Outlier Analysis`
-
-2Depth 상세 콘텐츠의 Session Time 분포를 분석해 이상 로그를 탐색하고, 반복 적용 가능한 데이터 품질 기준을 수립했습니다.
-
-- Session Time 분포 및 Scroll Depth별 사용자 행동 분석
-- **300초 초과 로그 제외 기준 수립**
-- Scroll Depth 조건, 1초 미만 로그 제외 등 대안 기준 비교
-- 추가 EDA를 통해 기존 **300초 초과 제외 기준 유지**
-- 고객사 및 협력사용 내부 통계 시스템의 Session Time 산출 기준에 반영
-
----
-
-### [04. Full Engagement 기반 저성과 Cutoff 기준 수립](https://github.com/wonbin-DA/data-analysis-portfolio/tree/main/04_low_performance_cutoff)
-
-`SQL` `Python` `EDA` `Percentile Analysis`
-
-반복 전시 콘텐츠의 성과 판단 기준을 마련하기 위해 Full Engagement 분포를 분석하고 저성과 콘텐츠의 Cutoff 기준을 검토했습니다.
-
-- 주차별 콘텐츠 Full Engagement 데이터 집계
-- Histogram, KDE, CDF 기반 성과 분포 분석
-- Percentile 비교를 통한 저성과 구간 탐색
-- 하위 25% 기준 **Full Engagement = 1,965** 확인
-- P25 기반 Cutoff 및 반복 저성과 콘텐츠 **3-Out 운영 기준 제안**
-
----
-
-## Tech Stack
+## 🛠 Tech Stack
 
 ### Data Analysis
 
@@ -109,7 +58,7 @@ SQL과 Python을 활용한 **행동 로그 분석, A/B Test, KPI 설계, 데이�
 
 ### Analysis
 
-`A/B Testing` `KPI Design` `EDA` `Data Quality` `Statsmodels`
+`A/B Testing` `KPI Design` `EDA` `Data Quality` `Statistical Testing`
 
 ### Visualization & Reporting
 
@@ -117,22 +66,55 @@ SQL과 Python을 활용한 **행동 로그 분석, A/B Test, KPI 설계, 데이�
 
 ---
 
-## Portfolio
+## 📊 Data Analysis Portfolio
 
-### Data Analysis Code Portfolio
+실무에서 수행한 데이터 분석 프로젝트를 기반으로  
+**문제 정의 → 데이터 추출 → 분석 → 검증 → 운영 의사결정** 과정을 정리했습니다.
 
-💻 **[data-analysis-portfolio](https://github.com/wonbin-DA/data-analysis-portfolio)**
+### Projects
 
-SQL과 Python을 활용한 프로젝트별 분석 코드와 공개용 Sample Data를 정리합니다.
+**01. 운영 기준 전환 A/B Test**  
+한국·브라질 Cross-over 실험을 통해 신규 운영 기준의 성과를 검증
 
-### Portfolio PDF
+**02. Engagement KPI 설계 및 운영 지표화**  
+1Depth와 2Depth 행동 로그를 기반으로 사용자 참여 KPI 설계
 
-📄 **[View Portfolio](./Portfolio_DA.pdf)**
+**03. Session Time 이상치 제거 기준 수립 및 시스템 적용**  
+Session Time 분포와 사용자 행동을 분석해 데이터 품질 기준 수립
 
+**04. Full Engagement 기반 저성과 Cutoff 기준 수립**  
+성과 분포와 Percentile을 기반으로 반복 전시 에디토리얼의 저성과 기준 검토
+
+### 🔗 [데이터 분석 포트폴리오 전체 보기](https://github.com/wonbin-DA/data-analysis-portfolio)
+
+프로젝트별 README와 함께 **SQL, Python Notebook, 공개용 Sample Data**를 확인할 수 있습니다.
 
 ---
 
-## Contact
+## 📄 Portfolio PDF
+
+### [포트폴리오 PDF 보기](./Portfolio_DA.pdf)
+
+프로젝트의 문제 정의, 분석 과정, 결과 및 의사결정 과정을 프레젠테이션 형태로 정리했습니다.
+
+---
+
+## 🎓 Education
+
+### 경기대학교
+**응용통계학 학사 · 융합데이터공학 부전공**  
+`2017.03 ~ 2024.02`
+
+---
+
+## 📚 Training & Certification
+
+- **KT AIVLE School 5기** DX 컨설턴트 과정 수료
+- **데이터분석 준전문가(ADsP)**
+
+---
+
+## 📬 Contact
 
 **E-mail**  
 [onebean5475@gmail.com](mailto:onebean5475@gmail.com)
